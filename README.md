@@ -15,6 +15,8 @@ The code in this repository makes use of the market data from Yahoo! Finance's A
 
 The code in this repository alters the adjusted close calculation by appending a new column of daily returns taking into account the ex-dividend dates and payments. (Data which is also sourced from Yahoo*). This new time series of return can then be compared to other asset returns as needed, whilst the original "Close" series can be used for backtesting trading algorithms and allocation.
 
+Output is via an excel file to the users desktop. Simple amendments via a for loop can increase the useability of the code by exoanding the ranges of tickers and data downloaded as well as the desired date ranges.
+
 
 
 * It's not my job to validate the accuracy of the dividend payout data...  
