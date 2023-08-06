@@ -1,6 +1,6 @@
 # YahooDataDownloader
 
-Yahoo data downloader with daily returns adjusted for dividends
+Data downloader with additional daily RETURNS column adjusted for dividends
 
 Yahoo currently offers an adjusted time series of closing prices values. This series accounts for the payment of dividends and adjusts the previous asset prices downwards. This makes it easy to calculate the total return over a given holding period with dividends reinvested.
 However, in backtesting quantitative strategies, these "adjusted" closing prices would not have actually been attainable.
